@@ -1,0 +1,18 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.22.1
+
+# ignores vulnerabilities until expiry date; change duration by modifying expiry date
+ignore:
+  SNYK-JS-CLASSVALIDATOR-1730566:
+    - '*':
+        reason: No upgrade or patch available
+        expires: 2021-12-31T00:00:00.000Z
+        created: 2021-11-27T21:02:19.092Z
+
+  SNYK-JS-ANSIREGEX-1583908:
+    - '*':
+        reason: No upgrade or patch available
+        expires: 2021-12-31T00:00:00.000Z
+        created: 2021-11-27T21:02:19.092Z
+
+patch: {}
